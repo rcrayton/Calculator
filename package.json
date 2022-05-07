@@ -1,0 +1,26 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "## Your task",
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^8.7.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "test": "jest --no-cache ./*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuinnManor/js-katas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuinnManor/js-katas/issues"
+  },
+  "homepage": "https://github.com/QuinnManor/js-katas#readme"
+}
