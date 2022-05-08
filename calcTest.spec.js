@@ -1,9 +1,16 @@
-import { numEnter } from "./activeCalc.js"
+import { keyEnter, numInput } from "./activeCalc.js"
 
 
-describe("Number enter", () => {
-  test("Numbers that user clicks return to the calculator screen", () => {
-    expect(numEnter(1)).toEqual(1);
-    expect(numEnter(123)).toEqual(123);
+describe("Keys enter", () => {
+  test("Key that user clicks return to the calculator screen", () => {
+    expect(keyEnter(1)).toEqual(1);
+    expect(keyEnter('.')).toEqual('.');
+    expect(keyEnter("+")).toEqual('+');
+  });
+});
+describe("Numbers entered with decimal are only returned once regardless of how many times input", () => {
+  test("Number returned", () => {
+    expect(numInput(1)).toEqual(1);
+    expect(numInput(36)).toEqual(36);
   });
 });
