@@ -1,10 +1,5 @@
 import { numEnter } from "./activeCalc.js"
 
-describe("Testing setup", () => {
-  xtest("Testing jest configuration", () => {
-    expect(123).toEqual(123);
-  });
-});
 
 describe("Number enter", () => {
   test("Numbers that user clicks return to the calculator screen", () => {
